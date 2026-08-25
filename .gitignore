@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Srodowisko wirtualne
+.venv/
+venv/
+env/
+
+# Edytory / IDE
+.vscode/
+.idea/
+
+# Buildy PyInstaller
+build/
+dist/
+*.spec
+
+# Wygenerowane pliki (mozna odtworzyc skryptem generate_icon.py)
+icon.png
+icon.icns
+*.log
+
+# Duze pliki binarne / dokumenty referencyjne
+*.pdf

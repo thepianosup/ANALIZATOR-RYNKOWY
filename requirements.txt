@@ -1,0 +1,9 @@
+PyQt6>=6.6.0
+PyQt6-WebEngine>=6.6.0
+yfinance>=0.2.40
+pandas>=2.1.0
+pandas_datareader>=0.10.0
+plotly>=5.18.0
+requests>=2.31.0
+lxml>=4.9.0
+beautifulsoup4>=4.12.0
