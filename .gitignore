@@ -1,8 +1,9 @@
-# macOS
+# ── System ──────────────────────────────────────────────────────────
 .DS_Store
+._*
 Thumbs.db
 
-# Python
+# ── Python ──────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -10,24 +11,27 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
-# Srodowisko wirtualne
+# ── Środowisko wirtualne (odtwarzalne: python -m venv .venv) ────────
 .venv/
 venv/
 env/
 
-# Edytory / IDE
+# ── Edytor / IDE ────────────────────────────────────────────────────
 .vscode/
 .idea/
 
-# Buildy PyInstaller
+# ── Build aplikacji (odtwarzalny: pyinstaller "Analizator Rynkowy.spec") ──
 build/
 dist/
-*.spec
 
-# Wygenerowane pliki (mozna odtworzyc skryptem generate_icon.py)
-icon.png
-icon.icns
+# ── Logi i pliki tymczasowe ─────────────────────────────────────────
 *.log
 
-# Duze pliki binarne / dokumenty referencyjne
+# ── Dokumenty referencyjne (nie kopiujemy do repozytorium) ──────────
 *.pdf
+
+# Uwaga: icon.png, icon.icns oraz plik "Analizator Rynkowy.spec" są
+# celowo w repozytorium — są potrzebne do zbudowania aplikacji .app.
+# Danych użytkownika (portfel, watchlista, klucz AI) program nie trzyma
+# w tym folderze, tylko w ~/.analizator_rynkowy — dlatego nie ma ich
+# w tym pliku.
